@@ -1,5 +1,5 @@
 #!/bin/bash
-docker container run -d \
+podman container run -d \
 --name wordpress \
 -e WORDPRESS_DB_HOST=wordpressdb \
 -e WORDPRESS_DB_USER='wordpress' \
